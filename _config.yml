@@ -69,4 +69,11 @@ theme: fexo
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: 120.24.43.186
+  user: root
+  root: /var/www/fan-wu.com/public
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
