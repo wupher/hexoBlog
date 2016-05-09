@@ -18,7 +18,7 @@ m4a 文件本质就是一个mp4文件，m4a仅是声明容器文件中仅含有�
 
 mp4 和 QuickTime 可以使用 Appple 公司的 Atom Inspector 工具打开：
 
-![Snip20160322_2.png](http://i.imgur.com/0qJi51l.png)
+![Snip20160322_2.png](http://fan-wu.com/images/1604/atom.png)
 
 左边的001.m4a 文件是播放出错的 m4a 文件，可以看到，用于存入音频数据（AAC格式）的 mdata 牌ftyp 后，而存放 metadata 的 moov 处于文件的最后。
 
